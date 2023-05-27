@@ -1,6 +1,6 @@
 
 ## CALCULADORA DE JUROS COMPOSTOS
-Projeto realizado para treinar habilidades com javaScript e trabalhar com eventos do DOM (Document Object Model). O cronômetro se inicia em 0 (com horas, minutos e segundos). 
+Projeto realizado para treinar habilidades com javaScript e trabalhar com eventos do DOM (Document Object Model). A calculadora captura as informações inseridas e devolve os resultados. 
 
 
 ## Tecnologias
