@@ -2,10 +2,10 @@
 
 :root {
     --cor-principal: #202020;
-    --cor-destaque: #ff0077;
+    --cor-destaque: #35485e;
     --cor-texto: #f2f2f2;
     --cor-detalhe: #d2d6da;
-    --cor-hover: #ff1582ee;
+ 
 }
 
 
@@ -14,6 +14,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-image: url(img/imagem-fundo.jpg);
+    background-size: cover;
 }
 
 .container {
@@ -25,23 +30,20 @@
 
 .calculator {
     height: 60%;
-    width: 50%;
-
+    width: 30%;
+    background-color: var(--cor-destaque);
+    border-radius: 1.5rem;
+    box-shadow: 0 0 10px var(--cor-principal);
 }
 
-.form-calculator {
-    margin-left: 50px;
-
-}
 
 
 .title-calculator {
-    width: 50%;
     margin-top: 30px;
     margin-left: 30px;
     margin-bottom: 10px;
     font-size: 24px;
-    color: var(--cor-principal);
+    color: var(--cor-texto);
 }
 
 
@@ -49,43 +51,49 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .input-group input {
     margin-bottom: 15px;
     border-radius: 0.5rem;
-    border: 1px solid var(--cor-destaque);
+    border: none;
+    outline: none;
     background-color: var(--cor-detalhe);
 }
 
+.input-group input:active{
+    border: none;
+}
+
 .input-group label,
-input {
-    width: 50%;
+input,
+button {
+
+    width: 20rem;
     padding: 0.5rem;
-    margin-left: 30px;
     font-size: 15px;
 
 }
 
 .input-group label {
     margin-bottom: -5px;
-    color: var(--cor-principal);
+    color: var(--cor-texto);
 }
 
-.buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-top: 30px;
-    margin-right: 200px;
-}
 
-.buttons button {
-    width: 20%;
+.input-group button {
+    margin-top: 10px;
     padding: 0.9rem;
     border-radius: 0.5rem;
     border: none;
-    margin-right: 20px;
-    background-color: var(--cor-destaque);
+    background-color: var(--cor-detalhe);
+    color: var(--cor-destaque);
+}
+
+#result{
+    margin-top: 20px;
+    margin-left: 30px;
     color: var(--cor-texto);
 }
+
