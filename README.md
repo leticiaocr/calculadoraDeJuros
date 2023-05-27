@@ -1,2 +1,2 @@
 # calculadoraDeJuros
-Calculadora de juros em javaScript
+Calculadora de juros compostos em javaScript
