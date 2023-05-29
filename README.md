@@ -26,7 +26,7 @@ Aqui estão as tecnologias utilizadas neste projeto.
 
 
 
-![Tela](https://github.com/leticiaocr/calculadoraDeJuros/blob/main/screen-capture.gif)
+![Tela](https://github.com/leticiaocr/calculadoraDeJuros/blob/main/screen-capture-_1_.gif)
 
 
 
