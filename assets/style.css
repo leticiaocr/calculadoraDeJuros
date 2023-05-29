@@ -5,7 +5,7 @@
     --cor-destaque: #35485e;
     --cor-texto: #f2f2f2;
     --cor-detalhe: #d2d6da;
- 
+
 }
 
 
@@ -16,9 +16,9 @@
     font-family: 'Outfit', sans-serif;
 }
 
-body{
-    background-image: url(img/imagem-fundo.jpg);
-    background-size: cover;
+body {
+    background: rgb(53, 72, 94);
+    background: linear-gradient(90deg, rgba(53, 72, 94, 1) 0%, rgba(45, 87, 135, 0.9724264705882353) 35%, rgba(44, 104, 173, 1) 74%);
 }
 
 .container {
@@ -62,7 +62,7 @@ body{
     background-color: var(--cor-detalhe);
 }
 
-.input-group input:active{
+.input-group input:active {
     border: none;
 }
 
@@ -91,9 +91,8 @@ button {
     color: var(--cor-destaque);
 }
 
-#result{
+#result {
     margin-top: 20px;
     margin-left: 30px;
     color: var(--cor-texto);
 }
-
