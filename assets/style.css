@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --cor-principal: #202020;
-    --cor-destaque: #35485e;
+    --cor-principal: #ff0077;
+    --hover:#ff479d;
+    --cor-destaque: #202020;
     --cor-texto: #f2f2f2;
     --cor-detalhe: #d2d6da;
-
 }
 
 
@@ -16,10 +16,6 @@
     font-family: 'Outfit', sans-serif;
 }
 
-body {
-    background: rgb(53, 72, 94);
-    background: linear-gradient(90deg, rgba(53, 72, 94, 1) 0%, rgba(45, 87, 135, 0.9724264705882353) 35%, rgba(44, 104, 173, 1) 74%);
-}
 
 .container {
     display: flex;
@@ -30,10 +26,8 @@ body {
 
 .calculator {
     height: 60%;
-    width: 30%;
-    background-color: var(--cor-destaque);
-    border-radius: 1.5rem;
-    box-shadow: 0 0 10px var(--cor-principal);
+    width: 50%;
+    
 }
 
 
@@ -41,36 +35,32 @@ body {
 .title-calculator {
     margin-top: 30px;
     margin-left: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 24px;
-    color: var(--cor-texto);
+    color: var(--cor-principal);
 }
 
 
 .input-group {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .input-group input {
     margin-bottom: 15px;
     border-radius: 0.5rem;
-    border: none;
+    border: 1px solid var(--cor-destaque);
     outline: none;
-    background-color: var(--cor-detalhe);
+   
 }
 
-.input-group input:active {
-    border: none;
-}
 
 .input-group label,
-input,
-button {
-
-    width: 20rem;
+input
+ {
+    width: 22rem;
     padding: 0.5rem;
     font-size: 15px;
 
@@ -78,21 +68,42 @@ button {
 
 .input-group label {
     margin-bottom: -5px;
-    color: var(--cor-texto);
-}
-
-
-.input-group button {
-    margin-top: 10px;
-    padding: 0.9rem;
-    border-radius: 0.5rem;
-    border: none;
-    background-color: var(--cor-detalhe);
     color: var(--cor-destaque);
 }
+
+.value-group, .period-group{
+    display: flex;
+    flex-direction: column;
+    
+}
+.button-group{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.button-group button {
+    
+    font-weight: bold;
+    margin-top: 35px;
+    padding: 0.8rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: var(--cor-principal);
+    color: var(--cor-texto);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#clean {
+    background-color: white;
+    color: var(--cor-principal);
+}
+
 
 #result {
     margin-top: 20px;
     margin-left: 30px;
-    color: var(--cor-texto);
+    color: var(--cor-destaque);
 }

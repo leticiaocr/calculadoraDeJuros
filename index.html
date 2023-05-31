@@ -16,15 +16,23 @@
             <form class="form-calculator">
                 <h1 class="title-calculator">Simulador de Juros Compostos</h1>
                 <div class="input-group">
-                    <label for="value">Valor inicial:</label>
-                    <input type="number" placeholder="0,00" class="input-field" id="value">
-                    <label for="fee">Taxa de juros a.m:</label>
-                    <input type="number" class="input-field" placeholder="0,00" id="fee">
-                    <label for="period">Período a.m:</label>
-                    <input type="number" class="input-calc" id="period">
-                    <button id="calculate">Calcular</button>
+                    <div class="value-group">
+                        <label for="value">Valor inicial:</label>
+                        <input type="text" placeholder="0,00" class="input-field" id="value">
+                        <label for="monthlyValue">Valor mensal:</label>
+                        <input type="text" placeholder="0,00" class="input-field" id="monthlyValue">
+                    </div>
+                    <div class="period-group">
+                        <label for="fee">Taxa de juros a.m:</label>
+                        <input type="text" class="input-field" placeholder="%" id="fee">
+                        <label for="period">Período a.m:</label>
+                        <input type="text" class="input-calc" id="period" placeholder="0">
+                    </div>
                 </div>
-                
+                <div class="button-group">
+                    <button id="calculate">Calcular</button>
+                    <button id="clean">Limpar</button>
+                </div>
             </form>
             <div id="result">
                 <h3>Resultado</h3>
@@ -33,6 +41,7 @@
         </section>
     </div>
     <script src="assets/js/main.js"></script>
+ 
 </body>
 
 </html>
