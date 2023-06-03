@@ -1,6 +1,6 @@
 
 ## CALCULADORA DE JUROS COMPOSTOS
-Projeto realizado para treinar habilidades com javaScript e trabalhar com eventos do DOM (Document Object Model). A calculadora captura as informações inseridas e devolve os resultados. 
+Projeto realizado para treinar habilidades com javaScript e trabalhar com eventos do DOM (Document Object Model).
 
 
 ## Tecnologias
@@ -10,6 +10,7 @@ Aqui estão as tecnologias utilizadas neste projeto.
 * HTML
 * CSS 
 * JavaScript
+* jQuery
 
 ## Serviços Usados
 
@@ -18,15 +19,15 @@ Aqui estão as tecnologias utilizadas neste projeto.
 
 ## Sobre o projeto
 
-* A calculadora faz calculos de juros compostos recebendo montante inicial, tempo e taxa de juros em %.
-* * Ao clicar em calcular ela devolve o valor do montante total após o tempo indicado. 
+* A calculadora faz calculos de juros compostos recebendo montante inicial, tempo em meses e taxa de juros em %.
+* Ao clicar em calcular ela devolve o valor do montante total após o tempo indicado. 
 
 
 ## Demonstração 
 
 
 
-![Tela](https://github.com/leticiaocr/calculadoraDeJuros/blob/main/screen-capture-_1_.gif)
+![Tela](https://github.com/leticiaocr/calculadoraDeJuros/blob/main/screen-capture.gif)
 
 
 
