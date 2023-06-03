@@ -41,7 +41,18 @@
         </section>
     </div>
     <script src="assets/js/main.js"></script>
+
  
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+
+    <script>
+
+        $('#value').mask("000.000,00", { reverse: true });
+        $('#monthlyValue').mask("000.000,00", { reverse: true });
+        $('#fee').mask("00,00%", { reverse: true });
+        $('#period').mask("0000", { reverse: true });
+    </script>
 </body>
 
 </html>
